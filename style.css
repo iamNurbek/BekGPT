@@ -2,13 +2,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .chatContainer {
   display: flex;
   flex-direction: row;
-  height: 70vh;
+  height: 60%;
   width: 60%;
   border: 1px solid #ccc;
 }

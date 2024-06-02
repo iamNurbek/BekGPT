@@ -1,7 +1,7 @@
 .recentMessage {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   background-color: #faedcd;
   flex-grow: 1;
   overflow-y: auto;
@@ -11,7 +11,7 @@
 
 .message {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding: 20px 20px 0px 20px;
   background-color: #fefae0;
   border-radius: 10px;
