@@ -1,0 +1,55 @@
+.messageBox {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageSection {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.chatMessage {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.incoming {
+  background-color: #a2cfff;
+  align-self: flex-end;
+}
+
+.outgoing {
+  background-color: #e2e2e2;
+  align-self: flex-start;
+}
+
+.bottomSection {
+  display: flex;
+  padding: 10px;
+}
+
+.bottomSection input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.bottomSection button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
